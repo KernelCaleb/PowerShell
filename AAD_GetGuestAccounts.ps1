@@ -1,3 +1,8 @@
 # AAD Get-GuestAccounts
 
-Get-AzureADUser -Filter "Usertype eq 'Guest'” | Export-csv -path "C:\Users\csnethen\OneDrive - Professional Case Management\Documents\IT\PowerShell\Output\AzAD_Guest_2020-12-15.csv"
+# KernelCaleb
+# 2021-01-07
+
+$path = "path to store the file"
+
+Get-AzureADUser -Filter "Usertype eq 'Guest'” | Export-csv -path $path
