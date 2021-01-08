@@ -1,3 +1,8 @@
+# Autopilot Get-HWID
+
+# KernelCaleb
+# 2021-01-07
+
 md c:\\HWID
 Set-Location c:\\HWID
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Unrestricted
