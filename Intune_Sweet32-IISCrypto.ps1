@@ -1,4 +1,13 @@
-﻿# Registry Keys for /Cipher Path
+# Intune_Sweet32_IISCrypto
+
+# KernelCaleb
+# 2021-01-07
+
+# Script to resolve Sweet32 misconfiguration through the Windows 10 registry, uses IISCrypto tool best practices
+
+# To-Do: Comment and segment script, develop function for the check and set method (could save lots of lines/memory/time)
+
+# Registry Keys for /Cipher Path
 $RegPathCipher = "HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Ciphers\"
 
 $CipherAES128 = "HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Ciphers\AES 128/128"
