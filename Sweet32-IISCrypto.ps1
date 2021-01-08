@@ -1,9 +1,9 @@
-# Intune_Sweet32_IISCrypto
+# Sweet32_IISCrypto
 
 # KernelCaleb
 # 2021-01-07
 
-# Script to resolve Sweet32 misconfiguration through the Windows 10 registry, uses IISCrypto tool best practices
+# Script to resolve Sweet32 misconfiguration through the Windows 10 registry, uses IISCrypto tool best practices, can be pushed through MS Intune to endpoints
 
 # To-Do: Comment and segment script, develop function for the check and set method (could save lots of lines/memory/time)
 
