@@ -1,0 +1,1 @@
+﻿Get-Mailbox -Filter {ArchiveStatus -Eq "None" -AND RecipientTypeDetails -eq "UserMailbox"} | Select UserPrincipalName | Export-CSV C:\Users\csnethen\LocalStorage\PSLab\Output\OnlineArchive-Audit.csv

@@ -1,0 +1,1 @@
+﻿New-Mailbox -Name "EmersonBouvierRoom" -Alias EmersonBouvierRoom -Room -EnableRoomMailboxAccount $true -MicrosoftOnlineServicesID EmersonBouvierRoom@procasemanagement.com -RoomMailboxPassword (ConvertTo-SecureString -String 'EmBouv$137' -AsPlainText -Force)
