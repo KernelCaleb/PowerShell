@@ -1,5 +1,8 @@
+# AAA Get-LicensingSKUs
+
+# KernelCaleb
+# 2021-01-07
+
 Get-AzureADSubscribedSku | Select SkuPartNumber
 $licenses = Get-AzureADSubscribedSku
 $licenses[3].ServicePlans
-
-STANDARDPACK.ServicePlans
